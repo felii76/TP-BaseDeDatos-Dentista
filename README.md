@@ -1,5 +1,4 @@
 # TP-BaseDeDatos-Dentista
 
 Nombres Integrantes:
-Felipe Charabora\n
-Maximo Celli
+Felipe Charabora y Maximo Celli
