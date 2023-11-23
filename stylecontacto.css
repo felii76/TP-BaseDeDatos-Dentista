@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    font-family: Poppins;
+    padding: 0;
+
+}
+
+
+
+header {
+    width: 100%;
+    animation-name: header;
+    animation-duration: 0.5s;
+    animation-direction: normal;
+    
+}
+header ul {
+    margin-top: -10vh;
+    display: flex;
+    padding: 30px 40px;
+    margin-left: 28%;
+
+}
+
+header li {
+    list-style: none;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+
+section {
+
+    margin-top: 10%;
+    margin-left: 5%;
+    animation-name: section;
+    animation-duration: 0.5s;
+    animation-direction: normal;
+}
+
+section p{
+    position: absolute;
+    font-size: 23pt;
+    margin-top: -5vh;
+}
+
+section h1{
+    font-size: 55pt;
+
+}
+
+section li{
+
+    list-style: none;
+}
+
+section .gmh1{
+    font-size: 1.5em;
+}
+
+section .numh1{
+    font-size: 1.5em;
+}
+
+section .igh1{
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+
+section .momo{
+    font-size: 1em;
+    text-decoration: none;
+}

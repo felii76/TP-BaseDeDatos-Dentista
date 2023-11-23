@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    font-family: Poppins;
+    padding: 0;
+
+}
+
+
+header {
+    width: 100%;
+    animation-name: header;
+    animation-duration: 0.5s;
+    animation-direction: normal;
+    
+}
+header ul {
+    margin-top: -10vh;
+    display: flex;
+    padding: 30px 40px;
+    margin-left: 28%;
+
+}
+
+header li {
+    list-style: none;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+
+    margin-top: 15%;
+    margin-left: 5%;
+    animation-name: section;
+    animation-duration: 0.5s;
+    animation-direction: normal;
+}
+
+section p{
+    position: absolute;
+    font-size: 23pt;
+    margin-top: -5vh;
+}
+
+section h1{
+    font-size: 55pt;
+
+}
+
+
+.button{
+    background-color: #282a36;
+    padding: 20px 30px;
+    position: absolute;
+    transform: translateY(-150%);
+    transition: all .2s;
+    text-decoration: none;
+    color: white;
+    margin-top: 11vh;
+    border-radius: 50px;
+    font-size: 2vh;
+}
+
+.button:hover{
+    background-color: rgb(92, 92, 92);
+    color: rgb(255, 255, 255);
+}
+
+@keyframes header{
+    0%{
+        transform: translateY(-150px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes section{
+    0%{
+        transform: translateX(-150px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.pelado{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -22%;
+}
